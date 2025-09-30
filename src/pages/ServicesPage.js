@@ -21,6 +21,12 @@ const ServicesPage = () => {
             <p className="services-hero-subtitle">
               Professional Smartphone Laptop Repair Services in Germany Since 2000
             </p>
+            <a href="#services" className="hero-cta">
+              Explore Services
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14m-7-7l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -107,7 +113,7 @@ const ServicesPage = () => {
       </section>
 
       {/* Main Content */}
-      <div className="services-main-content">
+      <div className="services-main-content" id="services">
         <div className="services-container">
           <div className="services-content">
             <h2 className="services-section-title">Our Repair Services</h2>
@@ -118,10 +124,10 @@ const ServicesPage = () => {
             <div className="services-grid">
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Smartphone Repair</h3>
@@ -132,10 +138,10 @@ const ServicesPage = () => {
 
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Laptop Repair</h3>
@@ -146,10 +152,10 @@ const ServicesPage = () => {
 
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Tablet Repair</h3>
@@ -160,10 +166,10 @@ const ServicesPage = () => {
 
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Desktop Repair</h3>
@@ -174,10 +180,10 @@ const ServicesPage = () => {
 
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Smart Watch Repair</h3>
@@ -188,10 +194,10 @@ const ServicesPage = () => {
 
               <div className="service-item">
                 <div className="service-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="8" y1="21" x2="16" y2="21" stroke="#ff0000" strokeWidth="2"/>
-                    <line x1="12" y1="17" x2="12" y2="21" stroke="#ff0000" strokeWidth="2"/>
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2"/>
+                    <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2"/>
                   </svg>
                 </div>
                 <h3 className="service-item-title">Data Recovery</h3>
@@ -203,6 +209,8 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };

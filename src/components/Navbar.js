@@ -23,10 +23,8 @@ const Navbar = () => {
         <div className="navbar-menu">
           <Link to="/" className="nav-link">HOME</Link>
           <Link to="/about" className="nav-link">ABOUT</Link>
-          <a href="#pages" className="nav-link">PAGES</a>
           <Link to="/services" className="nav-link">SERVICES</Link>
-          <a href="#blog" className="nav-link">BLOG</a>
-          <a href="#shop" className="nav-link">SHOP</a>
+          <Link to="/blog" className="nav-link">BLOG</Link>
           <a href="#contact" className="nav-link">CONTACT</a>
         </div>
 

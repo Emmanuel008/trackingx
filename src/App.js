@@ -12,6 +12,7 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import ServicesPage from './pages/ServicesPage';
+import BlogPage from './pages/BlogPage';
 
 // Home Page Component
 const HomePage = () => (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/blog" element={<BlogPage />} />
         </Routes>
         <Footer />
       </div>
