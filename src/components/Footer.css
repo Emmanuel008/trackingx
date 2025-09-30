@@ -1,0 +1,282 @@
+.footer {
+  background-color: #1a1a1a;
+  background-image: radial-gradient(circle, #333 1px, transparent 1px);
+  background-size: 20px 20px;
+  padding: 60px 0 30px 0;
+  color: white;
+  position: relative;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Column 1: Fixnix Brand */
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 2px solid #ff0000;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-fix {
+  color: white;
+}
+
+.logo-nix {
+  color: #ff0000;
+}
+
+.footer-description {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-heading {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #ff0000;
+  transform: translateY(-2px);
+}
+
+/* Column 2 & 3: Quick Links & Our Services */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.footer-links li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid #ff0000;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-link:hover {
+  color: #ff0000;
+}
+
+/* Column 4: Contact Us */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contact-text {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .footer-brand {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .footer-container {
+    padding: 0 15px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+  }
+  
+  .footer-description {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-heading {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons {
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    font-size: 0.9rem;
+  }
+  
+  .contact-info {
+    gap: 15px;
+  }
+  
+  .contact-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 0 15px 0;
+  }
+  
+  .footer-container {
+    padding: 0 10px;
+  }
+  
+  .footer-content {
+    gap: 25px;
+  }
+  
+  .logo-text {
+    font-size: 1.3rem;
+  }
+  
+  .footer-description {
+    font-size: 0.85rem;
+  }
+  
+  .footer-heading {
+    font-size: 0.95rem;
+  }
+  
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .footer-link {
+    font-size: 0.85rem;
+  }
+  
+  .contact-text {
+    font-size: 0.85rem;
+  }
+}
